@@ -7,11 +7,20 @@
   font-family: "JetBrains Mono",monospace;
 }
 
+a {
+  color:white;
+}
+
+a:visited {
+  color:gray;
+}
+
 .container {
   width: 900px;
-  height: 100vh;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10vh;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   color: white;
   display: flex;
@@ -27,21 +36,34 @@
   width: 50%;
   height: 100vh;
   background-color:rgb(40, 40, 47);
+  padding-bottom: 5vh;
 }
 
 .about {
-  height: 30vh;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-inline: 10%;
+  margin-inline: 5%;
   gap: 0.5em;
+}
+
+.logos {
+  position: relative;
+  height: 1.7em;
+  padding-right: 1em; 
+  top: 0.5em;
+}
+
+.about ul li span {
+  font-weight: bold;
 }
 
 .right {
   width: 50%;
-  color:rgb(40, 40, 47)
+  color:rgb(40, 40, 47);
+  padding-bottom: 5vh;
 }
 
 .job {
@@ -51,6 +73,11 @@
 .job span {
   font-size: small;
   display: block;
+}
+
+.job p {
+  font-size: small;
+  padding-top: 1em;
 }
 
 .btn-job {
@@ -68,6 +95,29 @@
   transition: box-shadow .15s,transform .15s;
   font-size: 18px;
   margin-top: 18px;
+  width: inherit;
+}
+
+.btn-show {
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  color: #36395A;
+  cursor: pointer;
+  justify-content: center;
+  padding: 0.5em;
+  position: relative;
+  transition: box-shadow .15s,transform .15s;
+  font-size: small;
+  background-color: #36395A;
+  color: #FCFCFD;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 .header {
@@ -101,4 +151,22 @@
 .title h1 {
   font-size: 1.7rem;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: auto;
+  }
+  .body {
+    flex-direction: column;
+  }
+  .left {
+    padding-bottom: 5vh;
+
+    width: 100%;
+    height: auto;
+  }
+  .right {
+    width: 100%;
+  }
 }
