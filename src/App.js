@@ -1,15 +1,18 @@
 import './App.css';
 import Header from './components/Header';
-import Left from './components/Left';
-import Right from './components/Right';
+import Resume from './components/Resume';
+import {Routes, Route} from "react-router-dom";
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="container">
         <Header/>
       <div className="body">
-          <Left/>
-          <Right/>
+        <Routes>
+          <Route path="/" element={<Resume/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+        </Routes>
       </div>
     </div>
   );

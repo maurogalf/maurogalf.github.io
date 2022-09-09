@@ -8,6 +8,14 @@ export const jobs = [
         ends: "Mayo 2022",
     },
     {
+        position: "Responsable de e-commerce",
+        description:
+            "Coordinacion del equipo de e-commerce con distintos canales de ventas: Mercado Libre, Tienda Oficial y atencion por Whatsapp. Configuración de los articulos publicados, seguimiento de ventas y resolución de problemas. Configuración de métodos de envío y pago. Formación de indicadores e informes para analizar el punto de venta.",
+        company: "MITO SRL",
+        starts: "Marzo 2020",
+        ends: "Octubre 2020",
+    },
+    {
         position: "Encargado de control de Inventario",
         description:
             " Relevamiento del stock en sucursales, control y seguimiento del inventario. Capacitación sobre el uso del sistema de gestión implementado a encargados y cajeros de las sucursales.",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { contact } from '../../contact';
+import { contact } from '../../data/contact';
 import linkedin from "../../logos/linkedin.png";
 import github from "../../logos/github.png";
 
@@ -12,7 +12,7 @@ const Contact = () => {
                 <li><span>Domicilio:</span> {contact.domicilio}</li>
                 <li><span>Teléfono:</span> {contact.telefono}</li>
                 <li><span>Email:</span> {contact.email}</li>
-                <li><span>Edad: {contact.edad}</span></li>
+                <li><span>Edad:</span> {contact.edad} años</li>
             </ul>
             <div>
                 <a href={contact.linkedin} target="_blank" rel="noreferrer">

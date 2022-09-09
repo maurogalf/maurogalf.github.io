@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { jobs } from "../../jobs";
+import { jobs } from "../../data/jobs";
 import Job from "./Job";
 
 export default function Experience() {
@@ -27,7 +27,6 @@ export default function Experience() {
             <h2>Experience</h2>
             <ul>
                 {jobsShowed.map((job, index) => {
-                    console.log(index);
                     return (
                         <Job
                             showed={index === indexShowed}

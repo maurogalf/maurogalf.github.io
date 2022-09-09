@@ -14,7 +14,7 @@ const getEdad = () => {
 
 export const contact = {
     domicilio : "Av. Colón 6200, Córdoba, Argentina",
-    telefono: "3512066071",
+    telefono: "+54 9 3512066071",
     email: "maurogalfonso@gmail.com",
     edad: getEdad(),
     linkedin: "https://www.linkedin.com/in/mauro-alfonso",
