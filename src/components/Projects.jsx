@@ -28,14 +28,14 @@ const Projects = ({setPage}) => {
         <div className="project-container">
             <div className="btn-group-container">
                 <h2>
-                    Porj<span>ects</span>
+                    Trab<span>ajos</span>
                 </h2>
                 {first !== 0 && (
                     <button
                         onClick={handlePrevious}
                         className="btn-show btn-prev"
                     >
-                        ← Show Previous
+                        ← Mostrar anteriores
                     </button>
                 )}
                 {last < projects.length && (
@@ -43,11 +43,11 @@ const Projects = ({setPage}) => {
                         onClick={handleProjects}
                         className="btn-show btn-next"
                     >
-                        Show Next →
+                        Mostrar más →
                     </button>
                 )}
             </div>
-            <TransitionGroup component="div">
+            <TransitionGroup component="div" className={"project-container"}>
                 {projectsShowed.map((project) => {
                     return (
                         <CSSTransition

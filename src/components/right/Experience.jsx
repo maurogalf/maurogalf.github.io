@@ -24,7 +24,7 @@ export default function Experience() {
 
     return (
         <div className="about">
-            <h2>Experience</h2>
+            <h2>Experiencia</h2>
             <ul>
                 {jobsShowed.map((job, index) => {
                     return (
@@ -40,12 +40,12 @@ export default function Experience() {
             </ul>
                 {jobsShowed.length !== 2 && (
                     <button className="btn-show btn-less" onClick={handleLess}>
-                        ↑ Show less ↑
+                        ↑ Mostrar menos ↑
                     </button>
                 )}
                 {jobsShowed.length !== jobs.length && (
                     <button className="btn-show btn-more" onClick={handleMore}>
-                        ↓ Show more ↓
+                        ↓ Mostrar más ↓
                     </button>
                 )}
         </div>

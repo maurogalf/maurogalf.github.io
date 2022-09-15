@@ -11,7 +11,7 @@ export default function Left() {
             <Contact />
             <Technologies />
             <Link to="/projects">
-                <h2>My projects</h2>
+                <h2>Mis Proyectos</h2>
             </Link>
         </div>
     );

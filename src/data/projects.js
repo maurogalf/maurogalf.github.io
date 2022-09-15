@@ -8,7 +8,7 @@ import ecommerce from "../images/ecommerce.jpg";
 export const projects = [
     {
         nombre: "Backend E-commerce",
-        descripcion: "Proyecto backend de E-commerce para el curso de Node JS en Coderhuse. En proceso...",
+        descripcion: "Proyecto backend de E-commerce para el curso de Node JS en Coderhouse. En proceso...",
         presentacion: ecommerce,
         tecnologias: "NODE JS EXPRESS MONGODB FIREBASE",
         repositorio: "https://github.com/maurogalf/chatSocket",

@@ -7,7 +7,7 @@ import github from "../../logos/github.png";
 const Contact = () => {
     return (
         <div className='about'>
-            <h2>Contact</h2>
+            <h2>Contacto</h2>
             <ul>
                 <li><span>Domicilio:</span> {contact.domicilio}</li>
                 <li><span>Teléfono:</span> {contact.telefono}</li>

@@ -4,7 +4,7 @@ import { technologies } from "../../data/technologies";
 const Technologies = () => {
     return (
         <div className="about tech">
-            <h3>Some technologies I have worked with</h3>
+            <h3>Algunas tecnologías con las que trabajé</h3>
             {technologies.map((tech) => {
                 return (
                     <div key={tech.name}>

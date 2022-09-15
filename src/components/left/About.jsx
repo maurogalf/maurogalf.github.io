@@ -9,7 +9,7 @@ export default function About() {
   }
   return (
     <div className="about">
-        <h2>About me</h2>
+        <h2>Acerca de mi</h2>
         <p>{contact.about.substring(0, caracteres)} <span style={{ fontWeight: 'bold', cursor: 'pointer' }} onClick={handelCaracteres}>{caracteres === 219 ? "...leer más." : " Mostrar menos."}</span> </p>
     </div>
   )
