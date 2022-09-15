@@ -39,6 +39,8 @@ a:visited {
   font-size: 20px;
   width: min-content;
   border-radius: 0px 0px 15px 15px;
+  border: 1px solid white;
+  border-top: none
 }
 
 .nextPage {
@@ -75,11 +77,13 @@ a:visited {
   padding-bottom: 5vh;
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 4vh;
 }
 
 .left h2 {
   text-align: center;
+  padding-top: 10px;
+  color: white
 }
 
 .about {
