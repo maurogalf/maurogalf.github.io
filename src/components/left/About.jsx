@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { contact } from '../../data/contact'
 
 export default function About() {
+  const [caracteres, setCaracteres] = useState(219);
+
+  const handelCaracteres = () => {
+    caracteres === 219 ? setCaracteres(999) : setCaracteres(219);
+  }
   return (
     <div className="about">
         <h2>About me</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed molestias eligendi nostrum quis cumque fugit temporibus omnis vitae, odio dicta eius nobis ipsam. Odio dolorem exercitationem, et quibusdam dolor laborum!</p>
+        <p>{contact.about.substring(0, caracteres)} <span style={{ fontWeight: 'bold', cursor: 'pointer' }} onClick={handelCaracteres}>{caracteres === 219 ? "...leer más." : " Mostrar menos."}</span> </p>
     </div>
   )
 }

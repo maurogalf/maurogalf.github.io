@@ -18,5 +18,6 @@ export const contact = {
     email: "maurogalfonso@gmail.com",
     edad: getEdad(),
     linkedin: "https://www.linkedin.com/in/mauro-alfonso",
-    github: "https://github.com/maurogalf"
+    github: "https://github.com/maurogalf",
+    about: `Me considero una persona activa y muy curiosa, siempre me motivó mucho entender cómo funcionan las cosas y luego buscar la forma de optimizarlo. Autodidacta y siempre con ganas de aprender nuevas habilidades. Me animan los retos y pienso que no hay retos imposibles si le dedicas el tiempo apropiado. Trabaje durante 13 años en la misma empresa, pero no tuve siempre el mismo trabajo ya que pasé por casi todas las áreas. Con una fuerte base en la información y el manejo de datos me desempeñé como comprador los últimos años, también fui responsable de automatizar procesos de distintas áreas de la empresa, en especial con macros de Excel. Con una educación técnica siempre me apasionó la tecnología y la programación, por esta razón es que me estoy capacitando como desarrollador, ya habiendo finalizado cursos de Desarrollo Web, JavaScript y React JS. Actualmente estoy aprendiendo Node JS.`
 }

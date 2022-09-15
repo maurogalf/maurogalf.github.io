@@ -1,12 +1,10 @@
 import React from "react";
 import { technologies } from "../../data/technologies";
-import { Link } from "react-router-dom"
 
 const Technologies = () => {
     return (
         <div className="about tech">
-            <Link to="/projects">Ver projectos</Link>
-            <h2>Some technologies I have worked with</h2>
+            <h3>Some technologies I have worked with</h3>
             {technologies.map((tech) => {
                 return (
                     <div key={tech.name}>

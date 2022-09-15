@@ -25,7 +25,7 @@ export const technologies = [
     },
     {
         name: "NODE JS",
-        logo: "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+        logo: "https://nodejs.org/static/images/favicons/favicon-32x32.png"
     },
     {
         name: "MongoDb",
@@ -33,6 +33,6 @@ export const technologies = [
     },
     {
         name: "Express",
-        logo: "https://cms-assets.tutsplus.com/uploads/users/1116/posts/24835/preview_image/mongodb-logo.png"
+        logo: "https://expressjs.com/images/favicon.png"
     },
 ]
