@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const ChangePage = ({ page }) => {
-    useEffect(() => {
-        console.log(page);
-    }, [page]);
+    useEffect(() => {}, [page]);
     return (
         <div className="notch-container">
             <div className="notch">

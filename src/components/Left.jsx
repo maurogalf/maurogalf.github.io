@@ -5,14 +5,14 @@ import Technologies from "./left/Technologies";
 import { Link } from "react-router-dom";
 
 export default function Left() {
-    return (
-        <div className="left">
-            <About />
-            <Contact />
-            <Technologies />
-            <Link to="/projects">
-                <h2>→ Ver mis trabajos </h2>
-            </Link>
-        </div>
-    );
+  return (
+    <div className="left">
+      <About />
+      <Contact />
+      <Technologies />
+      <Link to="/projects">
+        <h2>→ Ver mis trabajos </h2>
+      </Link>
+    </div>
+  );
 }
